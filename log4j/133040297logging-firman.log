@@ -1,0 +1,22 @@
+2016-04-29 14:37:49 INFO  HelloWorldDao:19 - Menginstankan dao
+2016-04-29 14:37:49 INFO  HelloWorldDao:22 - Menginstankan service
+2016-04-29 14:37:49 WARN  HelloWorldDao:24 - Method deleteTheWorld dijalankan
+2016-04-29 14:37:49 INFO  HelloWorldDao:23 - Menjalankan method delete
+2016-04-29 14:37:49 WARN  HelloWorldDao:24 - Method deleteTheWorld dijalankan
+2016-04-29 14:37:49 INFO  HelloWorldDao:23 - Menjalankan method delete
+2016-04-29 14:37:49 ERROR HelloWorldDao:28 - ID tidak boleh kurang dari nol
+java.lang.IllegalArgumentException: ID tidak boleh kurang dari nol
+	at com.artivisi.quickstart.log4j.HelloWorldDao.delete(HelloWorldDao.java:29)
+	at com.artivisi.quickstart.log4j.HelloWorldService.deleteTheWorldDao(HelloWorldService.java:26)
+	at com.artivisi.quickstart.log4j.Main.main(Main.java:37)
+2016-04-29 14:39:08 INFO  HelloWorldDao:19 - Menginstankan dao
+2016-04-29 14:39:08 INFO  HelloWorldDao:22 - Menginstankan service
+2016-04-29 14:39:08 WARN  HelloWorldDao:24 - Method deleteTheWorld dijalankan
+2016-04-29 14:39:08 INFO  HelloWorldDao:23 - Menjalankan method delete
+2016-04-29 14:39:08 WARN  HelloWorldDao:24 - Method deleteTheWorld dijalankan
+2016-04-29 14:39:08 INFO  HelloWorldDao:23 - Menjalankan method delete
+2016-04-29 14:39:08 ERROR HelloWorldDao:28 - ID tidak boleh kurang dari nol
+java.lang.IllegalArgumentException: ID tidak boleh kurang dari nol
+	at com.artivisi.quickstart.log4j.HelloWorldDao.delete(HelloWorldDao.java:29)
+	at com.artivisi.quickstart.log4j.HelloWorldService.deleteTheWorldDao(HelloWorldService.java:26)
+	at com.artivisi.quickstart.log4j.Main.main(Main.java:37)
