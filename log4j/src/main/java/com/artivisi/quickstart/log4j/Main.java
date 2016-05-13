@@ -5,7 +5,9 @@
  */
 package com.artivisi.quickstart.log4j;
 
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import static org.apache.log4j.lf5.viewer.LogTableColumn.LEVEL;
 
 /**
  *
@@ -17,7 +19,7 @@ public class Main {
 
     public static void main(String[] args) {
         Log4JDemo log = new Log4JDemo();
-        logger.debug("Ini adalah debug message");
+        logger.log(Level.DEBUG,"Ini adalah debug message");
         logger.info("Ini adalah info message");
         logger.warn("Ini adalah fatal message");
         logger.error("Ini adalah warn message");
