@@ -16,6 +16,7 @@ public class Main {
     private static final Logger logger = Logger.getLogger(Log4JDemo.class);
 
     public static void main(String[] args) {
+        Log4JDemo log = new Log4JDemo();
         logger.debug("Ini adalah debug message");
         logger.info("Ini adalah info message");
         logger.warn("Ini adalah fatal message");
